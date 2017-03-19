@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+          
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:body>
+        <ui:composition> 
+            <div>
+                <h1 style='font-family: calibri; font-size: 48px; padding: 0; margin: 0'><b>TecService - <i style='font-weight: 100'>Experimental</i></b></h1>
+                <h1 style='font-family: calibri; font-size: 18px; padding: 0; margin: 0'><b><i>Versão 1.0</i></b></h1><br/><br/>
+                <h:form>  
+                   <p:growl/>
+                   <p:menu style="background-color: #fff; font-size: 11px; float: left; margin-top: 12px">
+                       <p:submenu label="Cadastros">
+                           <p:menuitem value="Usuários" action="/" icon="ui-icon-arrowrefresh-1-w"/>
+                           <p:menuitem value="Serviços" action="/services.xhtml?faces-redirect=true" icon="ui-icon-arrowrefresh-1-w"/>
+                           <p:menuitem value="Requisições" action="/requisitions.xhtml?faces-redirect=true" icon="ui-icon-arrowrefresh-1-w"/>
+                       </p:submenu>
+                       <p:submenu label="Ajuda">
+                           <p:menuitem value="Repositório" url="https://github.com/simaovski/ExperimentoPPGI/" icon="ui-icon-home"/>
+                           <p:menuitem value="Arquitetura" url="https://github.com/simaovski/ExperimentoPPGI/blob/master/Documentation/architecture.png?raw=true" icon="ui-icon-home"/>
+                           <p:menuitem value="Atividades" url="https://github.com/simaovski/ExperimentoPPGI/issues" icon="ui-icon-home"/>
+                       </p:submenu>
+                   </p:menu>
+               </h:form>               
+           </div>
+        </ui:composition>
+    </h:body>
+</html>

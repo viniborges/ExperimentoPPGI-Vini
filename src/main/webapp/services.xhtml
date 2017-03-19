@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"          
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:body> 
+    	<ui:composition template="template/layout.xhtml">
+            <ui:define name="operations">
+                <h:form>
+                    <p:fieldset legend="Serviços" style="margin-bottom:20px; font-size: 12px; width: 80%; float: right">
+                        <p:inputText style='width: 50%; margin: 10px 10px 10px 0' value="#{services.name}"/>
+                        <p:selectOneMenu value="#{services.idUser}" style='margin: 10px 10px 0 0; width: 30%'>
+                            <f:selectItems value="#{index.lst}" var="user" itemLabel="#{user.name}" itemValue="#{user.id}"/>
+                        </p:selectOneMenu>
+                        <p:commandButton value="Salvar" id="ajax" update="table" actionListener="#{services.save}" styleClass="ui-priority-primary" />
+                    
+                        <p:dataTable var="service" value="#{services.lst}" id='table'>
+                            <p:column headerText="Identificador">
+                                <h:outputText value="#{service.id}" />
+                            </p:column>
+                            <p:column headerText="Tipo">
+                                <h:outputText value="#{service.name}" />
+                            </p:column>                            
+                            <p:column headerText="Responsável">
+                                <h:outputText value="#{service.idUser.name}" />
+                            </p:column>
+                        </p:dataTable>
+                    </p:fieldset>
+                </h:form>
+            </ui:define>
+    	</ui:composition> 
+    </h:body>
+</html>

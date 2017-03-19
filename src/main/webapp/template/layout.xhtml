@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      > 
+    <h:head>
+    </h:head> 
+    <h:body style='width: 1200px; margin: 20px auto; background-color: #f1f1f1'> 
+	<div> 
+            <div>
+		<ui:insert name="options" >
+		  <ui:include src="/template/common.xhtml" />
+		</ui:insert>
+                
+		<ui:insert name="operations" >
+		  <ui:include src="/template/operations.xhtml" />
+		</ui:insert>
+	    </div> 
+        </div> 
+    </h:body>
+</html>
