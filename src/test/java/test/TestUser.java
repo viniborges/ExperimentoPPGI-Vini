@@ -46,13 +46,11 @@ public class TestUser {
     
     @Test
     public void test01() {
-        System.out.println("Test01 -> insert user");
+        System.out.println("Test 01 -> insert user");
         
         index  i = new index();
         i.setName("Test01");
         
         assertEquals(true, i.save());
-    }
-    
-    
+    }  
 }
