@@ -13,7 +13,7 @@ As atividades podem ser encontradas na opção <a href='https://github.com/simao
 <ol>
   <li>Clone este repositório para seu próprio repositório!</li>
   <li>Selecione uma <a href='https://github.com/simaovski/ExperimentoPPGI/issues'>atividade</a></li>
-  <li>Preencha<a href='https://docs.google.com/forms/d/1cJN5gte8a6M-fdT6bRxMy7i94Nnpk5PazI7F2CzNzOk'>Formulário de atividades</a></li>
+  <li>Preencha o<a href='https://docs.google.com/forms/d/1cJN5gte8a6M-fdT6bRxMy7i94Nnpk5PazI7F2CzNzOk'> Formulário de atividades</a></li>
   <li>Desenvolva a atividade</li>
 </ol>
 
