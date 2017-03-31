@@ -2,7 +2,7 @@ Regras
 -Uma imagem tamanho [700x600]
 -Uma imagem tamanho [350x500]
 -Ambas as imagens em extensão .png
--Submeter no link: https://github.com/simaovski/ExperimentoPPGI/blob/master/010/initial.txt
+-Submeter no link: https://github.com/simaovski/ExperimentoPPGI/tree/master/010
 --> para [700x600] usar padrão nomeusuariogithub-telatablet.png
 --> para [350x500] usar padrão nomeusuariogithub-telacelular.png
 -Usuários que submeterem três ou mais submissões para essa atividade terão ambas desconsideradas.
