@@ -17,11 +17,9 @@ As atividades podem ser encontradas na opção <a href='https://github.com/simao
   <li>Desenvolva a atividade</li>
 </ol>
 
-<b><i>Não existe um limite minímo ou máximo de atividades. </i></b>
+<b><i>Não existe um limite minímo ou máximo de atividades. <span style='color: red'>ENTRETANTO CADA ATIVIDADE PODE POSSUIR ATÉ CINCO PARTICIPANTES. As atividades já encerradas serão sinalizadas</span></i></b>
 
-Cada atividade possui uma descrição e as regras necessárias para implementar seu desenvolvimento. Caso persistam dúvidas, comente na issue específica que em breve você será respondido.
-
-Caso a dúvida seja não seja referente a execução de uma atividade abra uma nova issue que em breve você será respondido.
+Cada atividade possui uma descrição e as regras necessárias para implementar seu desenvolvimento. Caso persistam dúvidas, comente na issue específica que em breve você será respondido ou no canal do slack.
 
 <h2>Links Úteis</h2><br/>
 <a href='https://docs.google.com/forms/d/1iAnYAPxVIbpbhglS2twXoolOcxao5N_DxhWTs_bRNdM'>1º Termo de Consentimento</a><br/>
