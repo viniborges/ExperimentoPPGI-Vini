@@ -25,6 +25,6 @@ Cada atividade possui uma descrição e as regras necessárias para implementar 
 <a href='https://docs.google.com/forms/d/1iAnYAPxVIbpbhglS2twXoolOcxao5N_DxhWTs_bRNdM'>1º Termo de Consentimento</a><br/>
 <a href='https://docs.google.com/forms/d/1bQ3g79Vq1pbeilUN2gnEvAGFHio9sO0hoIk6b2d9Kyg'>2º Identificação</a><br/>
 <a href='https://docs.google.com/forms/d/1cJN5gte8a6M-fdT6bRxMy7i94Nnpk5PazI7F2CzNzOk'>3º Formulário de atividades</a><br/>
-<a href='https://experimentoppgi.slack.com/'>4º Canal do slack</a>
-<a href='https://www.youtube.com/watch?v=jSt_oJSFSDY&feature=youtu.be'>5º Clonar repositório no GitHub</a>
-<a href='https://youtu.be/9qR2PK8tWl0'>6º Atualizar repositório</a>
+<a href='https://experimentoppgi.slack.com/'>4º Canal do slack</a><br/>
+<a href='https://www.youtube.com/watch?v=jSt_oJSFSDY&feature=youtu.be'>5º Clonar repositório no GitHub</a><br/>
+<a href='https://youtu.be/9qR2PK8tWl0'>6º Atualizar repositório</a><br/>
