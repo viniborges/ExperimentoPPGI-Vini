@@ -46,6 +46,10 @@ public class Users implements Serializable {
     @Size(max = 200)
     @Column(name = "name")
     private String name;
+    
+    @Size(max = 200)
+    @Column(name = "email")
+    private String email;
 
     public Users() {
     }
@@ -68,6 +72,14 @@ public class Users implements Serializable {
 
     public void setName(String name) {
         this.name = name;
+    }
+    
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     @Override
