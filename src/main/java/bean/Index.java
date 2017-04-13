@@ -15,7 +15,7 @@ import model.Users;
 
 @ManagedBean
 @RequestScoped
-public class index {
+public class Index {
     private List<Users> lst = new ArrayList<>();
     private String name;
     private String email;
