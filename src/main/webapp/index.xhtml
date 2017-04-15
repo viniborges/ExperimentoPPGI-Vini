@@ -10,11 +10,11 @@
             <ui:define name="operations">
                 <h:form>
                     <p:fieldset legend="Usuários" style="margin-bottom:20px; font-size: 12px; width: 80%; float: right">
-                        Nome: <p:inputText style='width: 50%; margin: 10px 10px 10px 0' value="#{index.name}"/>
-                        E-mail: <p:inputText style='width: 50%; margin: 10px 10px 10px 0' value="#{index.email}"/>
-                        <p:commandButton value="Salvar" id="ajax" update="table" actionListener="#{index.save}" styleClass="ui-priority-primary" />
+                        Nome: <p:inputText style='width: 50%; margin: 10px 10px 10px 0' value="#{Index.name}"/>
+                        E-mail: <p:inputText style='width: 50%; margin: 10px 10px 10px 0' value="#{Index.email}"/>
+                        <p:commandButton value="Salvar" id="ajax" update="table" actionListener="#{Index.save}" styleClass="ui-priority-primary" />
                     
-                        <p:dataTable var="user" value="#{index.lst}" id='table'>
+                        <p:dataTable var="user" value="#{Index.lst}" id='table'>
                             <p:column headerText="Identificador">
                                 <h:outputText value="#{user.id}" />
                             </p:column>

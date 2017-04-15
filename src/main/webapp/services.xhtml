@@ -13,7 +13,7 @@
                     <p:fieldset legend="Serviços" style="margin-bottom:20px; font-size: 12px; width: 80%; float: right">
                         <p:inputText style='width: 50%; margin: 10px 10px 10px 0' value="#{services.name}"/>
                         <p:selectOneMenu value="#{services.idUser}" style='margin: 10px 10px 0 0; width: 30%'>
-                            <f:selectItems value="#{index.lst}" var="user" itemLabel="#{user.name}" itemValue="#{user.id}"/>
+                            <f:selectItems value="#{Index.lst}" var="user" itemLabel="#{user.name}" itemValue="#{user.id}"/>
                         </p:selectOneMenu>
                         <p:commandButton value="Salvar" id="ajax" update="table" actionListener="#{services.save}" styleClass="ui-priority-primary" />
                     
