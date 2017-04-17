@@ -1,9 +1,8 @@
 package test;
 
 import bean.Requisitions;
+import bean.Services;
 
-import java.util.List;
-import javax.persistence.EntityManager;
 import org.junit.After;
 import org.junit.AfterClass;
 import static org.junit.Assert.*;
@@ -11,9 +10,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class TestRequisition {
-
-	public TestRequisition() {
+public class TestService {
+	public TestService() {
     }
     
     @BeforeClass
@@ -33,12 +31,16 @@ public class TestRequisition {
     }
 	@Test
     public void test01() {
-        System.out.println("Test 01 -> insert requisition");
+        System.out.println("Test 01 -> insert service");
         
-        Requisitions  r = new Requisitions();
-        r.setDescription("Description01");
-        r.setIdService(1);
+        Services  s = new Services();
+        s.setName("Service01");
+        model.Users u = new model.Users();
+        u.setId(1);
+        s.setIdUser(u.getId());
         
-        assertEquals(true, r.save());
+        
+        assertEquals(true, s.save());
     }  
+
 }

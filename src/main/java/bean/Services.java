@@ -54,14 +54,19 @@ public class Services {
         lst = new controller.ServicesController().getAll();
     }
     
-    public void save(){
+    public boolean save(){
         model.Services s = new model.Services();
         s.setName(name);
         Users u = new Users();
         u.setId(idUser);
         s.setIdUser(u);
+        try {
+        	new controller.ServicesController().persist(s);
+        } catch (Exception e) {
+            return false;
+        }
+        return true;
         
-        new controller.ServicesController().persist(s);
     }
     
 }
