@@ -16,15 +16,15 @@ import model.Users;
 @ManagedBean
 @RequestScoped
 public class Index {
-    private List<Users> lst = new ArrayList<>();
+    private List<model.Users> lst = new ArrayList<>();
     private String name;
     private String email;
     
-    public List<Users> getLst() {
+    public List<model.Users> getLst() {
         return lst;
     }
 
-    public void setLst(List<Users> lst) {
+    public void setLst(List<model.Users> lst) {
         this.lst = lst;
     }
 
@@ -50,7 +50,7 @@ public class Index {
     }
     
     public boolean save(){
-        Users u = new Users();
+    	model.Users u = new model.Users();
         u.setName(name);
         u.setEmail(email);
         

@@ -63,13 +63,18 @@ public class Requisitions {
         lst = new controller.RequisitionsController().getAll();
     }
     
-    public void save(){
+    public boolean save(){
         model.Requisitions r = new model.Requisitions();
         r.setDescription(description);
         model.Services s = new model.Services();
         s.setId(idService);
         r.setIdService(s);
         
-        new controller.RequisitionsController().persist(r);
+        try {
+        	new controller.RequisitionsController().persist(r);
+        } catch (Exception e) {
+            return false;
+        }
+        return true;
     }
 }
